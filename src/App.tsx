@@ -10,7 +10,7 @@ function App() {
     <div className="container">
       <Header />
       <Routes >
-        <Route index element={<Products />} />
+        <Route path="/products" element={<Products />} />
         <Route path="/liked" element={<LikeProducts />} />
         <Route path="/create-product" element={<Create />} />
         <Route path="/:id" element={<FullProduct />} />
@@ -20,3 +20,5 @@ function App() {
 }
 
 export default App;
+
+
