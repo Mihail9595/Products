@@ -1,0 +1,57 @@
+.product {
+  background-color: var(--grey);
+  border-radius: 10px;
+  padding-block: 15px;
+  margin-inline: auto;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.title {
+  height: 50px;
+  align-items: center;
+  color: var(--dark);
+  font-weight: 600;
+}
+
+.category {
+  color: var(--dark);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.img {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  margin-inline: auto;
+}
+
+img{
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.buttons {
+  margin: 20px;
+  display: flex;
+  gap: 110px;
+}
+
+.like,
+.delete {
+  color: var(--grey);
+  background-color: var(--dark-sea);
+}
+
+.unlike{
+  background: var(--violet-dark);
+}

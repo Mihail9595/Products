@@ -1,0 +1,21 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-block: 30px;
+}
+.img {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+img{
+    width: 380px;
+    /* height: 380px; */
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
